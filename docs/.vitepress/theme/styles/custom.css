@@ -19,3 +19,7 @@
   );
   --vp-home-hero-image-filter: blur(64px);
 }
+
+.footnotes {
+  font-size: 13px;
+}

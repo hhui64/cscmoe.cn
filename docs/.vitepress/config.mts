@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,6 +13,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
+
+    outline: 'deep',
 
     nav: [
       { text: '首页', link: '/' },
@@ -35,6 +38,11 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: '© 2024 CSCMOE GAMES'
+    }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
     }
   },
   vite: {
