@@ -16,9 +16,15 @@ export default defineConfig({
 
     outline: 'deep',
 
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: '首页', link: '/' },
-      { text: '游玩指南', link: '/guide/getting-started' }
+      { text: '游玩指南', link: '/guide/getting-started' },
+      { text: '服务器信息', link: '/server-info/' },
+      { text: '整合包', link: '/modpack/' }
     ],
 
     sidebar: [
