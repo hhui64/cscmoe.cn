@@ -18,7 +18,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 我们并不要求使用某个特定厂商的 JDK，部分厂商的 JDK 可能会带有一定的性能优化（降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 JDK。但在选择 JDK 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你不是非常了解这些的话，那么选择我们推荐的 JDK 就可以了。
 :::
 
-我们推荐使用 [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17)^[JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”。JDK 包含了 JRE（Java Runtime Environment），即“Java 运行时环境”。]^[Oracle JDK 是 Oracle（甲骨文）公司出品的 JDK（Java 开发人员工具包）。]（原因详见上方注意事项）。下面列出了常见操作系统的 Oracle JDK 17 下载链接。
+我们推荐使用 [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17)^[JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”。JDK 包含了 JRE（Java Runtime Environment），即“Java 运行时环境”。]^[Oracle JDK 是 Oracle（甲骨文）公司出品的 JDK（Java 开发人员工具包）。]（原因详见上方注意事项）。下面列出了常见操作系统的 Oracle JDK 17 下载链接：
 
 | 操作系统  | JDK 版本 | 下载链接                                                                                                            |
 | --------- | :------: | ------------------------------------------------------------------------------------------------------------------- |
@@ -36,12 +36,44 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 我们并不要求使用某个特定的 Minecraft 启动器，通常来说，在市面上选择一个你喜欢的第三方^[除了官方的 [Minecraft Launcher](https://www.minecraft.net/en-us/download) 以外的 Minecraft 启动器均称为“第三方 Minecraft 启动器”。] Minecraft 启动器即可。但需要注意的是，该 Minecraft 启动器必须支持[外置登录](https://github.com/yushijinhun/authlib-injector)^[用于给非正版玩家提供与正版登录流程一致的服务。]以及导入[我的世界中文论坛整合包标准](#)的整合包^[[整合包（Modpack）](https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E5%99%A8Mod?variant=zh-cn#%E6%95%B4%E5%90%88%E5%8C%85)是一个不包含 Minecraft 游戏本体的，将多个[模组（Mod）](https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E5%99%A8Mod?variant=zh-cn)、[资源包（Resource Pack）](https://zh.minecraft.wiki/w/%E8%B5%84%E6%BA%90%E5%8C%85)等文件打包到一起的压缩包，可以是客户端也可以是服务端。]。
 :::
 
-我们推荐使用以下第三方 Minecraft 启动器。
+我们推荐使用以下第三方 Minecraft 启动器：
 
 |        启动器名称         |    支持的操作系统     |                官方网站                 |
 | :-----------------------: | :-------------------: | :-------------------------------------: |
 | Hello Minecraft! Launcher | Windows、Linux、macOS | [点击打开](https://hmcl.huangyuhui.net) |
 |   Plain Craft Launcher    |        Windows        | [点击打开](https://afdian.net/a/LTCat)  |
+
+## 登录账户
+
+::: tip
+我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读[LittleSkin 用户使用手册](https://manual.littlesk.in/)。
+:::
+
+服务器需要登录来验证每位玩家的身份，以免他人随意冒充。
+
+在本章节中，我们将使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器演示如何登录账户。
+
+### 在 Hello Minecraft! Launcher 启动器中登录
+
+::: tip
+在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账户。如果尚未注册账户，请先[注册](https://littleskin.cn/auth/register)。
+:::
+
+打开启动器，并点击左上角的 `账户` 按钮。
+
+![登录步骤1](/images/hmcl-login-step-1.jpg)
+
+在左侧 `添加账户` 中选择 `LittleSkin` 按钮。
+
+![登录步骤2](/images/hmcl-login-step-2.jpg)
+
+输入 LittleSkin 的 `用户名` 和 `密码` 并登录。
+
+![登录步骤3](/images/hmcl-login-step-3.jpg)
+
+登录成功后则出现角色。
+
+![登录步骤4](/images/hmcl-login-step-4.jpg)
 
 ## 下载并安装游戏
 
@@ -76,38 +108,6 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ![安装整合包步骤1](/images/modpack-install-step-4.jpg)
 ![安装整合包步骤1](/images/modpack-install-step-5.jpg)
 
-## 登录账户
-
-::: tip
-我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读[LittleSkin 用户使用手册](https://manual.littlesk.in/)。
-:::
-
-服务器需要登录来验证每位玩家的身份，以免他人随意冒充。
-
-在本章节中，我们将使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器演示如何登录账户。
-
-### 在 Hello Minecraft! Launcher 启动器中登录
-
-::: tip
-在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账户。如果尚未注册账户，请先[注册](https://littleskin.cn/auth/register)。
-:::
-
-#### 打开启动器，并点击左上角的「账户」
-
-![登录步骤1](/images/hmcl-login-step-1.jpg)
-
-#### 在左侧「添加账户」中选择「LittleSkin」
-
-![登录步骤2](/images/hmcl-login-step-2.jpg)
-
-#### 输入 LittleSkin 的用户名和密码并登录
-
-![登录步骤3](/images/hmcl-login-step-3.jpg)
-
-#### 登录成功后则出现角色
-
-![登录步骤4](/images/hmcl-login-step-4.jpg)
-
 ## 开始游戏
 
 ::: tip
@@ -118,23 +118,23 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 如果一切顺利，那么你可以启动 Minecraft 了！
 
-#### 启动游戏
+点击右下角的 `启动游戏` 按钮。
 
 ![启动 Minecraft 步骤1](/images/modpack-start-step-1.jpg)
 
-#### 等待启动
+等待启动。
 
 如果此时检测到整合包有更新或是游戏资源不完整，则会自动从服务器下载更新文件以及游戏资源文件。
 
 ![启动 Minecraft 步骤2](/images/modpack-start-step-2.jpg)
 
-#### 等待加载
+等待加载。
 
-由于模组数量较多，部分配置较低的电脑可能加载时间会比较长，请耐心等待加载完成。
+由于模组数量较多，部分**配置较低**的电脑可能**加载时间**会**比较长**，请耐心等待加载完成。
 
 ![启动 Minecraft 步骤3](/images/modpack-start-step-3.jpg)
 
-#### 加载完成
+加载完成。
 
 出现此界面即表示游戏加载完成！
 
@@ -144,25 +144,24 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 初次启动游戏时，游戏语言为英文，我们需要将其改为简体中文。
 
-#### 点击 Language... 按钮
+点击 `Language...` 按钮。
 
 ![修改游戏语言步骤1](/images/change-language-step-1.jpg)
 
-#### 选择“简体中文（中国大陆）”
+选择 `简体中文（中国大陆）` 选项。
 
 ![修改游戏语言步骤2](/images/change-language-step-2.jpg)
 
-#### 点击“继续”
+点击 `继续` 按钮。
 
 ![启动步骤1](/images/start-step-1.jpg)
-
-#### 至此，游戏启动完成！
-
 ![启动步骤2](/images/start-step-2.jpg)
+
+至此，游戏启动完成！
 
 ### 添加并进入服务器
 
-要游玩服务器，首先要将我们服务器的 IP 地址添加至多人游戏列表中。
+要游玩服务器，首先要将我们服务器的地址添加至 `多人游戏列表` 中。
 
 #### 添加服务器
 
@@ -188,11 +187,11 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 #### 进入服务器
 
-在服务器列表中双击 `CSCMOE` 服务器。
+在多人游戏列表中双击 `CSCMOE` 服务器。
 
 ![加入服务器步骤1](/images/join-server-step-1.jpg)
 
-等待加载。
+等待加载……
 
 ![加入服务器步骤2](/images/join-server-step-2.jpg)
 
@@ -202,7 +201,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ## 下一步
 
-恭喜！你现在已经可以进行游玩了！现在你可以：
+恭喜！你现在已经可以进行游玩了！现在你也可以：
 
 - 调整客户端的各种设置，例如鼠标灵敏度、按键绑定、视频效果、音量大小等等设置，以达到你喜欢的效果。
 - 启用整合包中内置的资源包，请参阅[启用整合包内置的资源包](#启用整合包内置的资源包)。
@@ -210,23 +209,23 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ### 启用整合包内置的资源包
 
 ::: tip
-在初次启动 Minecraft 时，不会启用整合包中内置的资源包，你需要手动启用这些内置的资源包。
+在初次启动 Minecraft 时，不会启用这些资源包，你需要手动启用这些资源包。
 :::
 
-为了增加游戏体验，我们在整合包中内置了几种资源包以供玩家们使用，详情如下。
+为了完善游戏体验，我们在整合包中内置了一些资源包以供玩家们使用，详情如下：
 
-- `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 是一个 MOD 汉化补丁资源包，这个资源包补全了部分尚未被汉化的模组内容。
+- `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 是一个模组汉化补丁资源包，这个资源包补全了部分尚未被汉化的模组内容。
 
-- `Minecraft-Mod-Language-Modpack-Converted-1.20.1` 是由 CFPAOrg 及汉化贡献者制作的多 MOD 汉化补丁资源包。
+- `Minecraft-Mod-Language-Modpack-Converted-1.20.1` 是由 CFPAOrg^[一个致力于提供我的世界模组和整合包翻译的团队。] 及汉化贡献者制作的多模组汉化补丁资源包。
 
 - `Midnighttiggers-CTM-Default_1.20_V2` 这个资源包添加了玻璃缝的连接纹理和生物群系的边界过渡。
 
-启用这些内置资源包可以更好地体验 Minecraft，手动启用的顺序如图所示：
+从右侧的 `可用` 一栏点击需要启用的资源包的图标即可启用。启用完成后，点击下方的 `完成` 按钮即可。
+
+启用这些资源包可以更好地体验 Minecraft，手动启用的顺序如图所示：
+
+![资源包顺序列表](/images/res-list.jpg)
 
 ::: warning
 请始终确保 `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 资源包位于最顶，否则它将无法生效！
 :::
-
-启用完成后，点击下方的 `完成` 按钮即可。
-
-![资源包顺序列表](/images/res-list.jpg)
