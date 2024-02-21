@@ -15,7 +15,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 :::
 
 ::: warning 警告：选择 Java（JDK） 时的注意事项！
-我们并不要求使用某个特定厂商的 Java（JDK），其他厂商的 Java（JDK） 可能会带有一定的性能优化（降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 Java（JDK）。但在选择 Java（JDK） 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，选择我们推荐的 [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17) 是最保险的。
+我们并不要求使用某个特定厂商的 JDK，部分厂商的 JDK 可能会带有一定的性能优化（降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 JDK。但在选择 JDK 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你不是非常了解这些的话，那么选择我们推荐的 JDK 就可以了。
 :::
 
 我们推荐使用 [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17)^[JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”。JDK 包含了 JRE（Java Runtime Environment），即“Java 运行时环境”。]^[Oracle JDK 是 Oracle（甲骨文）公司出品的 JDK（Java 开发人员工具包）。]（原因详见上方注意事项）。下面列出了常见操作系统的 Oracle JDK 17 下载链接。
@@ -45,13 +45,17 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ## 下载并安装游戏
 
-当然，为了方便玩家游玩，我们服务器也制作了相应的客户端整合包以供玩家们使用。
+为了方便玩家游玩，我们服务器制作了相应的整合包以供玩家们使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
 
-只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
+整合包支持自动更新^[该功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]，仅需一次下载安装，后续均可在启动游戏时自动更新。
 
-### 下载
+### 下载整合包
 
-### 安装
+请跳转至[整合包](/modpack/)页面下载。
+
+下载完成后，你将得到一个名为 `cscmoe-modpack-v*.*.*.zip` 的 zip 压缩包。
+
+### 安装整合包
 
 ## 登录账户
 
@@ -59,26 +63,38 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读[LittleSkin 用户使用手册](https://manual.littlesk.in/)。
 :::
 
+服务器需要登录来验证每位玩家的身份，以免他人随意冒充。
+
+在本章节中，我们将使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器演示如何登录账户。
+
 ### 在 Hello Minecraft! Launcher 启动器中登录
 
 ::: tip
-在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账号。如果尚未注册账号，请先[注册](https://littleskin.cn/auth/register)。
+在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账户。如果尚未注册账户，请先[注册](https://littleskin.cn/auth/register)。
 :::
 
-#### 1.打开启动器，并点击左上角的「账户」
+#### 打开启动器，并点击左上角的「账户」
 
 ![登录步骤1](/images/hmcl-login-step-1.jpg)
 
-#### 2.在左侧「添加账户」中选择「LittleSkin」
+#### 在左侧「添加账户」中选择「LittleSkin」
 
 ![登录步骤2](/images/hmcl-login-step-2.jpg)
 
-#### 3.输入 LittleSkin 的用户名和密码并登录
+#### 输入 LittleSkin 的用户名和密码并登录
 
 ![登录步骤3](/images/hmcl-login-step-3.jpg)
 
-#### 4.登录成功后则出现角色
+#### 登录成功后则出现角色
 
 ![登录步骤4](/images/hmcl-login-step-4.jpg)
 
-## 启动游戏
+## 开始游戏
+
+### 启动 Minecraft
+
+### 添加并进入服务器
+
+#### 添加
+
+#### 进入
