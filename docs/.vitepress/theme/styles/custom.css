@@ -1,15 +1,15 @@
 :root {
-  --c-green-1: #52ce63;
-  --c-green-2: #8ae99c;
-  --c-green-3: #51a256;
+  --vp-c-indigo-1: #53ac58;
+  --vp-c-indigo-2: #63cd6a;
+  --vp-c-indigo-3: #88e47e;
 }
 
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
     292deg,
-    var(--c-green-1) 50%,
-    var(--c-green-2)
+    var(--vp-c-indigo-2) 50%,
+    var(--vp-c-indigo-3)
   );
 
   --vp-home-hero-image-background-image: linear-gradient(

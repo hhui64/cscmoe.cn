@@ -43,15 +43,15 @@ Minecraft: Java Edition 需要 Java ^[Java 是一种计算机编程语言，但�
 | Hello Minecraft! Launcher | Windows、Linux、macOS | [点击打开](https://hmcl.huangyuhui.net) |
 |   Plain Craft Launcher    |        Windows        | [点击打开](https://afdian.net/a/LTCat)  |
 
-## 下载并安装整合包
+## 下载并安装客户端整合包
 
-当然，为了方便玩家游玩，我们服务器也制作了相应的整合包以供玩家们使用。
+当然，为了方便玩家游玩，我们服务器也制作了相应的客户端整合包以供玩家们使用。
 
 只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
 
-### 下载整合包
+### 下载客户端整合包
 
-### 安装整合包
+### 安装客户端整合包
 
 ## 登录账户
 
