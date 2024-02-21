@@ -47,15 +47,34 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 为了方便玩家游玩，我们服务器制作了相应的整合包以供玩家们使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
 
+::: tip
 整合包支持自动更新^[该功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]，仅需一次下载安装，后续均可在启动游戏时自动更新。
+:::
+
+如果你需要自行制作整合包，请参阅[如何自制整合包](#)。
+
+::: warning
+我们强烈建议你使用我们提供的整合包进行游玩，除非你对客户端有深度的定制需求。一但你选择自制整合包，每次在服务器更新时你将不得不手动升级模组文件。
+:::
 
 ### 下载整合包
 
 请跳转至[整合包](/modpack/)页面下载。
 
-下载完成后，你将得到一个名为 `cscmoe-modpack-v*.*.*.zip` 的 zip 压缩包。
+以整合包 v2.2.0 版本为例，下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
 
 ### 安装整合包
+
+打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v2.2.0.zip` 拖入启动器中。
+
+![安装整合包步骤1](/images/modpack-install-step-1.jpg)
+
+点击 `安装` 按钮并等待安装完成。
+
+![安装整合包步骤1](/images/modpack-install-step-2.jpg)
+![安装整合包步骤1](/images/modpack-install-step-3.jpg)
+![安装整合包步骤1](/images/modpack-install-step-4.jpg)
+![安装整合包步骤1](/images/modpack-install-step-5.jpg)
 
 ## 登录账户
 
@@ -91,10 +110,123 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ## 开始游戏
 
+::: tip
+由于网络原因，在启动游戏时可能会遇到问题，请参阅[常见问题解决](#)。
+:::
+
 ### 启动 Minecraft
+
+如果一切顺利，那么你可以启动 Minecraft 了！
+
+#### 启动游戏
+
+![启动 Minecraft 步骤1](/images/modpack-start-step-1.jpg)
+
+#### 等待启动
+
+如果此时检测到整合包有更新或是游戏资源不完整，则会自动从服务器下载更新文件以及游戏资源文件。
+
+![启动 Minecraft 步骤2](/images/modpack-start-step-2.jpg)
+
+#### 等待加载
+
+由于模组数量较多，部分配置较低的电脑可能加载时间会比较长，请耐心等待加载完成。
+
+![启动 Minecraft 步骤3](/images/modpack-start-step-3.jpg)
+
+#### 加载完成
+
+出现此界面即表示游戏加载完成！
+
+![启动 Minecraft 步骤4](/images/modpack-start-step-4.jpg)
+
+### 修改游戏语言
+
+初次启动游戏时，游戏语言为英文，我们需要将其改为简体中文。
+
+#### 点击 Language... 按钮
+
+![修改游戏语言步骤1](/images/change-language-step-1.jpg)
+
+#### 选择“简体中文（中国大陆）”
+
+![修改游戏语言步骤2](/images/change-language-step-2.jpg)
+
+#### 点击“继续”
+
+![启动步骤1](/images/start-step-1.jpg)
+
+#### 至此，游戏启动完成！
+
+![启动步骤2](/images/start-step-2.jpg)
 
 ### 添加并进入服务器
 
-#### 添加
+要游玩服务器，首先要将我们服务器的 IP 地址添加至多人游戏列表中。
 
-#### 进入
+#### 添加服务器
+
+点击 `多人游戏` 按钮。
+
+![添加服务器步骤1](/images/add-server-step-1.jpg)
+
+勾选 `不再显示此屏幕` 并点击 `继续` 按钮。
+
+![添加服务器步骤2](/images/add-server-step-2.jpg)
+
+点击右下方的 `添加服务器` 按钮。
+
+![添加服务器步骤3](/images/add-server-step-3.jpg)
+
+输入 `服务器名称` 以及 `服务器地址`，然后点击 `完成` 按钮。
+
+![添加服务器步骤4](/images/add-server-step-4.jpg)
+
+至此，服务器已成功添加。
+
+![添加服务器步骤5](/images/add-server-step-5.jpg)
+
+#### 进入服务器
+
+在服务器列表中双击 `CSCMOE` 服务器。
+
+![加入服务器步骤1](/images/join-server-step-1.jpg)
+
+等待加载。
+
+![加入服务器步骤2](/images/join-server-step-2.jpg)
+
+成功进入服务器。
+
+![加入服务器步骤3](/images/join-server-step-3.jpg)
+
+## 下一步
+
+恭喜！你现在已经可以进行游玩了！现在你可以：
+
+- 调整客户端的各种设置，例如鼠标灵敏度、按键绑定、视频效果、音量大小等等设置，以达到你喜欢的效果。
+- 启用整合包中内置的资源包，请参阅[启用整合包内置的资源包](#启用整合包内置的资源包)。
+
+### 启用整合包内置的资源包
+
+::: tip
+在初次启动 Minecraft 时，不会启用整合包中内置的资源包，你需要手动启用这些内置的资源包。
+:::
+
+为了增加游戏体验，我们在整合包中内置了几种资源包以供玩家们使用，详情如下。
+
+- `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 是一个 MOD 汉化补丁资源包，这个资源包补全了部分尚未被汉化的模组内容。
+
+- `Minecraft-Mod-Language-Modpack-Converted-1.20.1` 是由 CFPAOrg 及汉化贡献者制作的多 MOD 汉化补丁资源包。
+
+- `Midnighttiggers-CTM-Default_1.20_V2` 这个资源包添加了玻璃缝的连接纹理和生物群系的边界过渡。
+
+启用这些内置资源包可以更好地体验 Minecraft，手动启用的顺序如图所示：
+
+::: warning
+请始终确保 `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 资源包位于最顶，否则它将无法生效！
+:::
+
+启用完成后，点击下方的 `完成` 按钮即可。
+
+![资源包顺序列表](/images/res-list.jpg)
