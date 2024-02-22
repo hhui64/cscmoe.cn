@@ -1,5 +1,9 @@
 # 开始游玩
 
+这篇文章能让你顺利地开始游戏。
+
+当然，在开始游戏之前，请你先阅读并遵守我们的[规章制度](/guide/rules)。
+
 ## 准备游戏环境
 
 ::: tip
@@ -80,7 +84,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 为了方便玩家游玩，我们服务器制作了相应的整合包以供玩家们使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
 
 ::: tip
-整合包支持自动更新^[该功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]，仅需一次下载安装，后续均可在启动游戏时自动更新。
+官方整合包支持自动更新^[该功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]，仅需一次下载安装，后续均可在启动游戏时自动更新。
 :::
 
 如果你需要自行制作整合包，请参阅[如何自制整合包](#)。
@@ -108,11 +112,11 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ![安装整合包步骤1](/images/modpack-install-step-4.jpg)
 ![安装整合包步骤1](/images/modpack-install-step-5.jpg)
 
-## 开始游戏
-
 ::: tip
-由于网络原因，在启动游戏时可能会遇到问题，请参阅[常见问题解决](#)。
+在安装整合包过程中，可能会出现“安装失败”等问题，请参阅[常见问题与解决#安装整合包](/guide/troubles#安装整合包)。
 :::
+
+## 开始游戏
 
 ### 启动 Minecraft
 
@@ -127,6 +131,10 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 如果此时检测到整合包有更新或是游戏资源不完整，则会自动从服务器下载更新文件以及游戏资源文件。
 
 ![启动 Minecraft 步骤2](/images/modpack-start-step-2.jpg)
+
+::: tip
+由于网络原因，在启动游戏时可能会遇到问题，请参阅[常见问题解决#启动游戏](/guide/troubles#启动游戏)。
+:::
 
 等待加载。
 
@@ -205,6 +213,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 - 调整客户端的各种设置，例如鼠标灵敏度、按键绑定、视频效果、音量大小等等设置，以达到你喜欢的效果。
 - 启用整合包中内置的资源包，请参阅[启用整合包内置的资源包](#启用整合包内置的资源包)。
+- 查阅各种 Minecraft 相关的游戏资料，请参阅[查阅 Minecraft 游戏资料](#查阅-minecraft-游戏资料)。
 
 ### 启用整合包内置的资源包
 
@@ -229,3 +238,14 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ::: warning
 请始终确保 `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 资源包位于最顶，否则它将无法生效！
 :::
+
+### 查阅 Minecraft 游戏资料
+
+游玩 Minecraft 过程中，可能会遇到一些棘手的问题。下面列出了一些 Minecraft 玩家常用的游戏资料查询网站：
+
+- [我的世界中文维基](https://zh.minecraft.wiki)，这是基于官方 Minecraft Wiki 翻译而来的中文维基网站。
+- [MC百科](https://www.mcmod.cn)，用于查询 Minecraft 模组资料的网站。
+
+### 在QQ群内讨论
+
+如果你需要任何帮助，可以在[QQ群](https://qm.qq.com/q/2Ly0obalpu)内与玩家们一起讨论。

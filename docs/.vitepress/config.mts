@@ -4,6 +4,7 @@ import footnote from 'markdown-it-footnote'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
+  lastUpdated: true,
 
   title: 'CSCMOE',
   description: '友爱和谐的菜市场小镇',
@@ -27,15 +28,25 @@ export default defineConfig({
       { text: '整合包', link: '/modpack/' }
     ],
 
-    sidebar: [
-      {
-        text: '游玩指南',
-        items: [
-          { text: '简介', link: '/guide/introduction' },
-          { text: '开始游玩', link: '/guide/getting-started' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/guide/': [
+        {
+          text: '游玩指南',
+          items: [
+            { text: '简介', link: '/guide/introduction' },
+            { text: '规章制度', link: '/guide/rules' },
+            { text: '开始游玩', link: '/guide/getting-started' },
+            { text: '常见问题与解决', link: '/guide/troubles' }
+          ]
+        }
+      ],
+      '/server-info/': [
+        {
+          text: '服务器信息',
+          items: [{ text: '模组列表', link: '/server-info/mod-list' }]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hhui64/docs.cscmoe.cn' }
