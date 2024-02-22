@@ -15,11 +15,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
 
-    outline: 'deep',
+    outline: {
+      label: '页面导航',
+      level: 'deep'
+    },
 
     search: {
       provider: 'local'
     },
+
+    lastUpdatedText: '最后更新时间',
 
     nav: [
       { text: '首页', link: '/' },
@@ -51,6 +56,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hhui64/docs.cscmoe.cn' }
     ],
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
 
     footer: {
       message: 'Released under the MIT License.',
