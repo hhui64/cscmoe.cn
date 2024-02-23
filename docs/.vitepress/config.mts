@@ -30,7 +30,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '游玩指南', link: '/guide/getting-started' },
       { text: '服务器信息', link: '/server-info/' },
-      { text: '整合包', link: '/modpack/' }
+      { text: '整合包', link: '/modpack/official-modpack' }
     ],
 
     sidebar: {
@@ -49,6 +49,12 @@ export default defineConfig({
         {
           text: '服务器信息',
           items: [{ text: '模组列表', link: '/server-info/mod-list' }]
+        }
+      ],
+      '/modpack/': [
+        {
+          text: '整合包',
+          items: [{ text: '官方整合包', link: '/modpack/official-modpack' }]
         }
       ]
     },

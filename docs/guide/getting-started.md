@@ -2,12 +2,12 @@
 
 这篇文章能让你顺利地开始游戏。
 
-当然，在开始游戏之前，请你先阅读我们的[规章制度](/guide/rules)。
+当然，在开始游戏之前，请你先阅读我们的 [规章制度](/guide/rules)。
 
 ## 准备游戏环境
 
 ::: tip
-此章节是为新手准备的，如果你已准备好游戏所需的环境，请跳过此章节并转至[下载并安装游戏](#下载并安装游戏)。
+此章节是为新手准备的，如果你已准备好游戏所需的环境，请跳过此章节并转至 [下载并安装游戏](#下载并安装游戏)。
 :::
 
 Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/java/technologies/downloads/#java17)^[Minecraft: Java Edition 是一款使用 [Java](https://www.java.com) 语言开发的游戏，必须在计算机中安装 [Java 运行时环境](https://www.oracle.com/java/technologies/downloads/#java17)。] 和一个 [Minecraft 启动器](https://zh.minecraft.wiki/w/Minecraft%E5%90%AF%E5%8A%A8%E5%99%A8?variant=zh-cn)^[Minecraft 启动器是一个将 Minecraft 游戏本体启动起来的软件。] 才可以运行。
@@ -50,7 +50,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ## 登录账户
 
 ::: tip
-我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读[LittleSkin 用户使用手册](https://manual.littlesk.in/)。
+我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读 [LittleSkin 用户使用手册](https://manual.littlesk.in/)。
 :::
 
 服务器需要登录来验证每位玩家的身份，以免他人随意冒充。
@@ -60,7 +60,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ### 在 Hello Minecraft! Launcher 启动器中登录
 
 ::: tip
-在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账户。如果尚未注册账户，请先[注册](https://littleskin.cn/auth/register)。
+在登录之前，请先确保你已在 [LittleSkin](https://littleskin.cn/) 注册了账户。如果尚未注册账户，请先 [注册](https://littleskin.cn/auth/register)。
 :::
 
 打开启动器，并点击左上角的 `账户` 按钮。
@@ -81,47 +81,27 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ## 下载并安装游戏
 
-为了方便玩家游玩，我们服务器制作了相应的[官方整合包](/modpack/official-modpack)以供玩家使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。这样，你可以更轻松地享受游戏，而无需担心复杂的安装过程。
+为了方便玩家游玩，我们服务器制作了相应的 [官方整合包](/modpack/official-modpack) 以供玩家使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。这样，你可以更轻松地享受游戏，而无需担心复杂的安装过程。
 
 官方整合包还支持自动更新^[自动更新功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]功能，并添加了各种实用的辅助模组，如小地图、物品管理器、一键整理等。同时，它还集成了增强游戏体验的资源包和光影包，为玩家提供更丰富的游戏体验。
 
-如果官方整合包不能满足你的需求，或是你想深度定制整合包，你需要自行制作整合包。关于如何自行制作整合包，请参阅[整合包：自制整合包](#)。
+- 下载和安装教程请参阅 [下载及安装官方整合包](/modpack/official-modpack#下载及安装官方整合包)。
+
+当然，如果官方整合包不能满足你的需求，或是你想深度定制整合包，你需要自行制作整合包。关于如何自行制作整合包，请参阅 [自制整合包](#)。
 
 ::: warning
 我们强烈建议你使用我们提供的官方整合包进行游玩，除非你对游戏有深度的定制需求。一但你选择自制整合包，每次在服务器更新时，你将不得不手动升级模组文件以匹配服务器中的模组版本！
 :::
 
-### 下载官方整合包
-
-请跳转至[整合包：官方整合包](/modpack/official-modpack)页面下载。
-
-以官方整合包 v2.2.0 版本为例，下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
-
-### 安装官方整合包
-
-打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v2.2.0.zip` 拖入启动器中。
-
-![](/images/modpack-install-step-1.jpg)
-
-点击 `安装` 按钮并等待安装完成。
-
-![](/images/modpack-install-step-2.jpg)
-![](/images/modpack-install-step-3.jpg)
-![](/images/modpack-install-step-4.jpg)
-
-此时，返回启动器首页，在左侧的 `游戏` 一栏出现了 `CSCMOE MODPACK` 即表示整合包安装成功。
-
-![](/images/modpack-install-step-5.jpg)
-
-::: tip
-在整合包安装过程中，可能会出现诸如“安装失败”等问题，请参阅[常见问题与解决#安装整合包](/guide/troubles#安装整合包)以获取解决方案。这将有助于你解决可能出现的安装问题。如果你在安装过程中遇到其他问题，请随时联系我们的技术支持。
-:::
-
 ## 开始游戏
 
-### 启动 Minecraft
+在开始游戏前，请先确保你完成了 [下载并安装游戏](#下载并安装游戏) 的所有步骤。
 
-如果一切顺利，那么你可以启动 Minecraft 了！
+::: tip
+以下操作均使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器以及 [官方整合包](/modpack/official-modpack) 进行演示。
+:::
+
+### 启动 Minecraft
 
 点击右下角的 `启动游戏` 按钮。
 
@@ -134,7 +114,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 ![启动 Minecraft 步骤2](/images/modpack-start-step-2.jpg)
 
 ::: tip
-由于网络原因，在启动游戏时可能会遇到问题，请参阅[常见问题解决#启动游戏](/guide/troubles#启动游戏)。
+由于网络原因，在启动游戏时可能会遇到问题，请参阅 [常见问题解决#启动游戏](/guide/troubles#启动游戏)。
 :::
 
 等待加载。
@@ -157,7 +137,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ![修改游戏语言步骤1](/images/change-language-step-1.jpg)
 
-选择 `简体中文（中国大陆）` 选项。
+滚动鼠标滚轮或下拉滚动条，找到并选择 `简体中文（中国大陆）` 选项。
 
 ![修改游戏语言步骤2](/images/change-language-step-2.jpg)
 
@@ -213,32 +193,8 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 恭喜！你现在已经可以进行游玩了！现在你也可以：
 
 - 调整客户端的各种设置，例如鼠标灵敏度、按键绑定、视频效果、音量大小等等设置，以达到你喜欢的效果。
-- 启用整合包中内置的资源包，请参阅[启用整合包内置的资源包](#启用整合包内置的资源包)。
-- 查阅各种 Minecraft 相关的游戏资料，请参阅[查阅 Minecraft 游戏资料](#查阅-minecraft-游戏资料)。
-
-### 启用整合包内置的资源包
-
-::: tip
-在初次启动 Minecraft 时，不会启用这些资源包，你需要手动启用这些资源包。
-:::
-
-为了完善游戏体验，我们在整合包中内置了一些资源包以供玩家们使用，详情如下：
-
-- `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 是一个模组汉化补丁资源包，这个资源包补全了部分尚未被汉化的模组内容。
-
-- `Minecraft-Mod-Language-Modpack-Converted-1.20.1` 是由 CFPAOrg^[一个致力于提供我的世界模组和整合包翻译的团队。] 及汉化贡献者制作的多模组汉化补丁资源包。
-
-- `Midnighttiggers-CTM-Default_1.20_V2` 这个资源包添加了玻璃缝的连接纹理和生物群系的边界过渡。
-
-从右侧的 `可用` 一栏点击需要启用的资源包的图标即可启用。启用完成后，点击下方的 `完成` 按钮即可。
-
-启用这些资源包可以更好地体验 Minecraft，手动启用的顺序如图所示：
-
-![资源包顺序列表](/images/res-list.jpg)
-
-::: warning
-请始终确保 `CSCMOE-MODPACK-Mod-Language-Patch-1.20.1` 资源包位于最顶，否则它将无法生效！
-:::
+- 调整官方整合包的各种设置以优化体验，请参阅 [官方整合包#性能优化](/modpack/official-modpack#性能优化)。
+- 查阅各种 Minecraft 相关的游戏资料，请参阅 [查阅 Minecraft 游戏资料](#查阅-minecraft-游戏资料)。
 
 ### 查阅 Minecraft 游戏资料
 
@@ -249,4 +205,4 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ### 在 QQ 群内讨论
 
-如果你需要任何帮助，可以在[QQ 群](https://qm.qq.com/q/2Ly0obalpu)内与玩家们一起讨论。
+如果你需要任何帮助，可以在 [QQ 群](https://qm.qq.com/q/2Ly0obalpu) 内与玩家们一起讨论。
