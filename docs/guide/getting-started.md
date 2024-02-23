@@ -2,7 +2,7 @@
 
 这篇文章能让你顺利地开始游戏。
 
-当然，在开始游戏之前，请你先阅读并遵守我们的[规章制度](/guide/rules)。
+当然，在开始游戏之前，请你先阅读我们的[规章制度](/guide/rules)。
 
 ## 准备游戏环境
 
@@ -18,11 +18,11 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 我们服务器的游戏版本为 Minecraft 1.20.1，根据**官方要求**，需要使用 **Java 17 及以上**才可正常运行。
 :::
 
-::: warning 警告：选择 Java（JDK） 时的注意事项！
-我们并不要求使用某个特定厂商的 JDK，部分厂商的 JDK 可能会带有一定的性能优化（降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 JDK。但在选择 JDK 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你不是非常了解这些的话，那么选择我们推荐的 JDK 就可以了。
+::: warning 重要：选择 Java（JDK） 时的注意事项！
+我们并不要求使用某个特定厂商的 JDK，部分厂商的 JDK 可能会带有一定的性能优化（例如降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 JDK。但在选择 JDK 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你对此不太了解，我们建议选择我们推荐的 JDK。
 :::
 
-我们推荐使用 [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17)^[JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”。JDK 包含了 JRE（Java Runtime Environment），即“Java 运行时环境”。]^[Oracle JDK 是 Oracle（甲骨文）公司出品的 JDK（Java 开发人员工具包）。]（原因详见上方注意事项）。下面列出了常见操作系统的 Oracle JDK 17 下载链接：
+**我们推荐使用** [Oracle JDK](https://www.oracle.com/java/technologies/downloads/#java17)^[JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”。JDK 包含了 JRE（Java Runtime Environment），即“Java 运行时环境”。]^[Oracle JDK 是 Oracle（甲骨文）公司出品的 JDK（Java 开发人员工具包）。]（原因详见上方注意事项）。下面列出了常见操作系统的 Oracle JDK 17 下载链接：
 
 | 操作系统  | JDK 版本 | 下载链接                                                                                                            |
 | --------- | :------: | ------------------------------------------------------------------------------------------------------------------- |
@@ -81,39 +81,40 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ## 下载并安装游戏
 
-为了方便玩家游玩，我们服务器制作了相应的整合包以供玩家们使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。
+为了方便玩家游玩，我们服务器制作了相应的[官方整合包](/modpack/official-modpack)以供玩家使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。这样，你可以更轻松地享受游戏，而无需担心复杂的安装过程。
 
-::: tip
-官方整合包支持自动更新^[该功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]，仅需一次下载安装，后续均可在启动游戏时自动更新。
-:::
+官方整合包还支持自动更新^[自动更新功能一般由第三方 Minecraft 启动器实现，每次更新时只需下载差异部分的文件，而不需要全部重新下载，节省了非常多的时间和流量。]功能，并添加了各种实用的辅助模组，如小地图、物品管理器、一键整理等。同时，它还集成了增强游戏体验的资源包和光影包，为玩家提供更丰富的游戏体验。
 
-如果你需要自行制作整合包，请参阅[如何自制整合包](#)。
+如果官方整合包不能满足你的需求，或是你想深度定制整合包，你需要自行制作整合包。关于如何自行制作整合包，请参阅[整合包：自制整合包](#)。
 
 ::: warning
-我们强烈建议你使用我们提供的整合包进行游玩，除非你对客户端有深度的定制需求。一但你选择自制整合包，每次在服务器更新时你将不得不手动升级模组文件。
+我们强烈建议你使用我们提供的官方整合包进行游玩，除非你对游戏有深度的定制需求。一但你选择自制整合包，每次在服务器更新时，你将不得不手动升级模组文件以匹配服务器中的模组版本！
 :::
 
-### 下载整合包
+### 下载官方整合包
 
-请跳转至[整合包](/modpack/)页面下载。
+请跳转至[整合包：官方整合包](/modpack/official-modpack)页面下载。
 
-以整合包 v2.2.0 版本为例，下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
+以官方整合包 v2.2.0 版本为例，下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
 
-### 安装整合包
+### 安装官方整合包
 
 打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v2.2.0.zip` 拖入启动器中。
 
-![安装整合包步骤1](/images/modpack-install-step-1.jpg)
+![](/images/modpack-install-step-1.jpg)
 
 点击 `安装` 按钮并等待安装完成。
 
-![安装整合包步骤1](/images/modpack-install-step-2.jpg)
-![安装整合包步骤1](/images/modpack-install-step-3.jpg)
-![安装整合包步骤1](/images/modpack-install-step-4.jpg)
-![安装整合包步骤1](/images/modpack-install-step-5.jpg)
+![](/images/modpack-install-step-2.jpg)
+![](/images/modpack-install-step-3.jpg)
+![](/images/modpack-install-step-4.jpg)
+
+此时，返回启动器首页，在左侧的 `游戏` 一栏出现了 `CSCMOE MODPACK` 即表示整合包安装成功。
+
+![](/images/modpack-install-step-5.jpg)
 
 ::: tip
-在安装整合包过程中，可能会出现“安装失败”等问题，请参阅[常见问题与解决#安装整合包](/guide/troubles#安装整合包)。
+在整合包安装过程中，可能会出现诸如“安装失败”等问题，请参阅[常见问题与解决#安装整合包](/guide/troubles#安装整合包)以获取解决方案。这将有助于你解决可能出现的安装问题。如果你在安装过程中遇到其他问题，请随时联系我们的技术支持。
 :::
 
 ## 开始游戏
@@ -199,7 +200,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ![加入服务器步骤1](/images/join-server-step-1.jpg)
 
-等待加载……
+等待加载（可能需要比较长的时间）……
 
 ![加入服务器步骤2](/images/join-server-step-2.jpg)
 
@@ -244,8 +245,8 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 游玩 Minecraft 过程中，可能会遇到一些棘手的问题。下面列出了一些 Minecraft 玩家常用的游戏资料查询网站：
 
 - [我的世界中文维基](https://zh.minecraft.wiki)，这是基于官方 Minecraft Wiki 翻译而来的中文维基网站。
-- [MC百科](https://www.mcmod.cn)，用于查询 Minecraft 模组资料的网站。
+- [MC 百科](https://www.mcmod.cn)，用于查询 Minecraft 模组资料的网站。
 
-### 在QQ群内讨论
+### 在 QQ 群内讨论
 
-如果你需要任何帮助，可以在[QQ群](https://qm.qq.com/q/2Ly0obalpu)内与玩家们一起讨论。
+如果你需要任何帮助，可以在[QQ 群](https://qm.qq.com/q/2Ly0obalpu)内与玩家们一起讨论。
