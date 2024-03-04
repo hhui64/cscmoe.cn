@@ -29,7 +29,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '游玩指南', link: '/guide/getting-started' },
-      { text: '服务器信息', link: '/server-info/' },
+      { text: '服务器信息', link: '/server-info/mod-list' },
       { text: '整合包', link: '/modpack/official-modpack' }
     ],
 
@@ -48,7 +48,10 @@ export default defineConfig({
       '/server-info/': [
         {
           text: '服务器信息',
-          items: [{ text: '模组列表', link: '/server-info/mod-list' }]
+          items: [
+            { text: '模组列表', link: '/server-info/mod-list' },
+            { text: '更新日志', link: '/server-info/changelog' }
+          ]
         }
       ],
       '/modpack/': [
