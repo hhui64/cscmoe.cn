@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import timeline from 'vitepress-markdown-timeline'
+import multimdTable from 'markdown-it-multimd-table'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -81,6 +82,13 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote)
       md.use(timeline)
+      md.use(multimdTable, {
+        multiline: true,
+        rowspan: true,
+        headerless: true,
+        multibody: true,
+        aotolabel: true
+      })
     },
     image: {
       lazyLoading: true
