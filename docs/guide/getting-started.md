@@ -98,7 +98,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 在开始游戏前，请先确保你完成了 [下载并安装游戏](#下载并安装游戏) 的所有步骤。
 
 ::: tip
-以下操作均使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器以及 [官方整合包](/modpack/official-modpack) 进行演示。
+以下操作步骤均使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器以及 [官方整合包](/modpack/official-modpack) 进行演示。
 :::
 
 ### 启动 Minecraft
