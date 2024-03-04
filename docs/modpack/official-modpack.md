@@ -15,10 +15,14 @@
 ## 下载及安装官方整合包
 
 ::: tip
-以下操作步骤均使用 Windows 11 及 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器进行演示。其他操作系统以及启动器的操作步骤大同小异。
+以下操作步骤均使用 Windows 11 操作系统及 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器进行演示。其他操作系统以及启动器的操作步骤大同小异。
 :::
 
 ### 下载
+
+你可以从 [更新日志](/server-info/changelog) 页面找到对应版本的官方整合包下载链接，也可以在我们的 [QQ群]() 的群文件内找到最新版本的官方整合包。
+
+通常来说，选择与服务器最新版本对应的官方整合包下载即可。
 
 以官方整合包 v2.2.0 版本为例，下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
 
