@@ -15,7 +15,7 @@
 ## 下载及安装官方整合包
 
 ::: tip
-以下操作均使用 Windows 11 及 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器进行演示。其他操作系统以及启动器操作方法大同小异。
+以下操作步骤均使用 Windows 11 及 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器进行演示。其他操作系统以及启动器的操作步骤大同小异。
 :::
 
 ### 下载
