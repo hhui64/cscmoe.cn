@@ -6,16 +6,19 @@ title: CSCMOE
 titleTemplate: 自由、友爱、和谐的 Minecraft 服务器
 
 hero:
-  name: "CSCMOE"
+  name: 'CSCMOE'
   text: "自由、友爱、和谐的\nMinecraft 服务器"
-  tagline: "多模组生存模式公益养老服务器"
+  tagline: '多模组生存模式公益养老服务器'
   image:
     src: /logo.svg
     alt: CSCMOE
   actions:
     - theme: brand
-      text: 开始游玩
+      text: 🚀 开始游玩
       link: /guide/getting-started
+    - theme: alt
+      text: 官方整合包
+      link: /modpack/official-modpack
     - theme: alt
       text: 加入QQ群
       link: https://qm.qq.com/q/2Ly0obalpu
@@ -31,4 +34,3 @@ features:
     title: 和谐
     details: 这里没有暴力杀戮和争吵，也没有小偷和熊孩子，致力打造一个和谐的乌托邦服务器。
 ---
-

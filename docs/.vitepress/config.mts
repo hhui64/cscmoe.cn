@@ -29,10 +29,21 @@ export default defineConfig({
     lastUpdatedText: '最后更新时间',
 
     nav: [
-      { text: '首页', link: '/' },
       { text: '游玩指南', link: '/guide/getting-started' },
-      { text: '服务器信息', link: '/server-info/mod-list' },
-      { text: '整合包', link: '/modpack/official-modpack' }
+      {
+        text: '进阶教程',
+        items: [
+          { text: '生存技巧', link: '#' },
+          { text: '模组玩法', link: '#' }
+        ]
+      },
+      {
+        text: '服务器信息',
+        items: [
+          { text: '模组列表', link: '/server-info/mod-list' },
+          { text: '更新日志', link: '/server-info/changelog' }
+        ]
+      }
     ],
 
     sidebar: {
