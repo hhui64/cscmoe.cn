@@ -28,3 +28,12 @@
   margin: 0;
   line-height: 20px;
 }
+
+.timeline-dot {
+  color: unset;
+}
+
+.timeline-dot .timeline-dot-title {
+  color: var(--vp-c-text-1);
+  font-size: 32px;
+}

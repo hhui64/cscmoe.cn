@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import timeline from 'vitepress-markdown-timeline'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -79,6 +80,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(footnote)
+      md.use(timeline)
     },
     image: {
       lazyLoading: true
