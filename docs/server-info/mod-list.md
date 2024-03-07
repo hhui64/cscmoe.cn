@@ -13,11 +13,13 @@
 |  ^^  |      机械动力：中央厨房      |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |      机械动力：汽鸣铁道      |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 | 冒险 |             天境             |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |        天境：深入天境        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |        天境：遗失之物        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |        天境：暮色天空        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           暮色森林           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |             灾变             |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |        豆腐工艺重制版        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |        Alex 的生物        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 | 魔法 |           植物魔法           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           新生魔艺           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |        新生魔艺：魔匠        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
@@ -30,6 +32,7 @@
 |  ^^  |           海洋乐事           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |         暮色风味乐事         |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           豆腐乐事           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |        Alex 的乐事        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  | Delightful（暂译：究极乐事） |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           水产业 2           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |      懒人厨房/傻瓜烹饪       |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
