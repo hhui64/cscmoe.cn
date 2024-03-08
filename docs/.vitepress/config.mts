@@ -7,6 +7,9 @@ import multimdTable from 'markdown-it-multimd-table'
 export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://docs.cscmoe.cn'
+  },
 
   title: 'CSCMOE',
   description: '友爱和谐的菜市场小镇',
