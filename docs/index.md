@@ -14,7 +14,7 @@ hero:
     alt: CSCMOE
   actions:
     - theme: brand
-      text: 🚀 开始游玩
+      text: 开始游玩
       link: /guide/getting-started
     - theme: alt
       text: 官方整合包

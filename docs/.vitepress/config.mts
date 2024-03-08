@@ -29,7 +29,7 @@ export default defineConfig({
     lastUpdatedText: '最后更新时间',
 
     nav: [
-      { text: '游玩指南', link: '/guide/getting-started' },
+      { text: '游玩指南', link: '/guide/introduction' },
       {
         text: '进阶教程',
         items: [
@@ -55,6 +55,22 @@ export default defineConfig({
             { text: '规章制度', link: '/guide/rules' },
             { text: '开始游玩', link: '/guide/getting-started' },
             { text: '常见问题与解决', link: '/guide/troubles' }
+          ]
+        },
+        {
+          text: '工具资源',
+          link: '/tools/jdk'
+        }
+      ],
+      '/tools/': [
+        {
+          text: '工具资源',
+          items: [
+            { text: 'Minecraft 启动器', link: '/tools/launcher' },
+            { text: 'Java (JDK)', link: '/tools/jdk' }
+            // { text: '远程协助工具', link: '/tools/remote-desktop' },
+            // { text: '资源包（材质包）', link: '/tools/resourcepack' },
+            // { text: '光影包', link: '/tools/shaderpack' }
           ]
         }
       ],
