@@ -101,7 +101,8 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Released under the MIT License.',
+      message:
+        '网站框架代码使用 MIT 协议发布，所有文章若无特殊注明均为使用 CC-BY-SA-3.0 协议发布。',
       copyright: '© 2024 CSCMOE GAMES'
     }
   },
