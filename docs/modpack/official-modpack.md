@@ -14,7 +14,7 @@
 
 ## 下载及安装官方整合包
 
-::: tip
+::: info
 以下操作步骤均使用 Windows 11 操作系统及 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器进行演示。其他操作系统以及启动器的操作步骤大同小异。
 :::
 
@@ -24,11 +24,11 @@
 
 通常来说，选择与服务器最新版本对应的官方整合包下载即可。
 
-以服务器版本 [v2.2.0](/server-info/changelog#v2-2-0) 对应的官方整合包为例，你可以在版本更新日志的下方找到 [官方整合包下载](/server-info/changelog.html#官方整合包下载) 部分，然后选择一个下载链接下载它。下载完成后，你将得到一个文件名为 `cscmoe-modpack-v2.2.0.zip` 的 zip 压缩包。
+以服务器版本 [v3.0.0](/server-info/changelog#v3-0-0) 对应的官方整合包为例，你可以在版本更新日志的下方找到 [官方整合包下载](/server-info/changelog.html#官方整合包下载) 部分，然后选择一个下载链接下载它。下载完成后，你将得到一个文件名为 `cscmoe-modpack-v3.0.0.zip` 的 zip 压缩包。
 
 ### 安装
 
-打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v2.2.0.zip` 拖入启动器中。
+打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v3.0.0.zip` 拖入启动器中。
 
 ![](/images/modpack-install-step-1.jpg)
 
@@ -42,7 +42,7 @@
 
 ![](/images/modpack-install-step-5.jpg)
 
-::: tip
+::: info
 在整合包安装过程中，可能会出现诸如“安装失败”等问题，请参阅 [常见问题与解决](/guide/troubles#安装整合包) 以获取解决方案。这将有助于你解决可能出现的安装问题。如果你在安装过程中遇到其他问题，请在 QQ 群内联系我们以获取技术支持。
 :::
 
@@ -51,7 +51,7 @@
 ### 启用整合包内置的资源包
 
 ::: tip
-在初次启动 Minecraft 时，不会启用这些资源包，你需要手动启用这些资源包。
+在**初次**启动 Minecraft 时，这些资源包是**默认禁用**的，你需要手动启用这些资源包。
 :::
 
 为了完善游戏体验，我们在整合包中内置了一些资源包以供玩家们使用，详情如下：
