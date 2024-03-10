@@ -1,26 +1,30 @@
+---
+outline: [2, 3]
+---
+
 # 开始游玩
 
 这篇文章能让你顺利地开始游戏。
 
 当然，在开始游戏之前，请你先阅读我们的 [规章制度](/guide/rules)。
 
-## 准备游戏环境
+## 第一步：准备游戏环境
 
 Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/java/technologies/downloads/#java17)^[Minecraft: Java Edition 是一款使用 [Java](https://www.java.com) 语言开发的游戏，必须在计算机中安装 [Java 运行时环境](https://www.oracle.com/java/technologies/downloads/#java17)。] 和一个 [Minecraft 启动器](https://zh.minecraft.wiki/w/Minecraft%E5%90%AF%E5%8A%A8%E5%99%A8?variant=zh-cn)^[Minecraft 启动器是一个将 Minecraft 游戏本体启动起来的软件。] 才可以运行。
 
 ### 安装 Java (JDK)
 
-请到 [工具资源：Java (JDK)](/tools/jdk) 处选择与你的操作系统匹配的版本下载。
+- 请到 [工具资源：Java (JDK)](/tools/jdk) 处选择与你的操作系统匹配的版本下载。
 
 下载完成后，你需要打开安装程序，然后按照安装程序的指示操作即可。
 
 ### 下载 Minecraft 启动器
 
-请到 [工具资源：Minecraft 启动器](/tools/launcher) 处下载。
+- 请到 [工具资源：Minecraft 启动器](/tools/launcher) 处下载。
 
 下载完成后，请在任意地方新建一个文件夹，并将启动器文件放入这个文件夹中。
 
-## 登录账户
+## 第二步：登录账户
 
 ::: info
 我们服务器使用由 [LittleSkin](https://littleskin.cn/) 提供的外置登录服务登录，这是一个 Minecraft 皮肤站，支持上传自定义皮肤、披风，以及更换其他玩家分享的皮肤、披风。详细的使用方法和教程请阅读 [LittleSkin 用户使用手册](https://manual.littlesk.in/)。
@@ -50,7 +54,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ![登录步骤4](/images/hmcl-login-step-4.jpg)
 
-## 下载并安装游戏
+## 第三步：下载并安装游戏
 
 为了方便玩家游玩，我们服务器制作了相应的 [官方整合包](/modpack/official-modpack) 以供玩家使用。只需导入至 Minecraft 启动器即可一键开始游戏，省去了手动安装文件的繁琐步骤。这样，你可以更轻松地享受游戏，而无需担心复杂的安装过程。
 
@@ -64,9 +68,9 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 我们强烈建议你使用我们提供的官方整合包进行游玩，除非你对游戏有深度的定制需求。一但你选择自制整合包，每次在服务器更新时，你将不得不手动升级模组文件以匹配服务器中的模组版本！
 :::
 
-## 开始游戏
+## 第四步：开始游戏
 
-在开始游戏前，请先确保你完成了 [下载并安装游戏](#下载并安装游戏) 的所有步骤。
+在开始游戏前，请先确保你已完成了 [第二步：登录账户](#第二步-登录账户) 及 [第三步：下载并安装游戏](#第三步-下载并安装游戏) 的所有步骤。
 
 ::: info
 以下操作步骤均使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器以及 [官方整合包](/modpack/official-modpack) 进行演示。

@@ -14,7 +14,7 @@ Minecraft 启动器是一个将 Minecraft 游戏本体启动起来的软件。
 
 但需要注意的是，该 Minecraft 启动器必须支持以下功能：
 
-- [外置登录](https://github.com/yushijinhun/authlib-injector)^[用于给非正版玩家提供与正版登录流程一致的服务。]
+- [外置登录](https://github.com/yushijinhun/authlib-injector)功能。^[用于给非正版玩家提供与正版登录流程一致的服务。]
 
 - 导入[我的世界中文论坛整合包标准](#)的整合包^[[整合包（Modpack）](https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E5%99%A8Mod?variant=zh-cn#%E6%95%B4%E5%90%88%E5%8C%85)是一个不包含 Minecraft 游戏本体的，将多个[模组（Mod）](https://zh.minecraft.wiki/w/%E5%8A%A0%E8%BD%BD%E5%99%A8Mod?variant=zh-cn)、[资源包（Resource Pack）](https://zh.minecraft.wiki/w/%E8%B5%84%E6%BA%90%E5%8C%85)等文件打包到一起的压缩包，可以是客户端也可以是服务端。]。
 
