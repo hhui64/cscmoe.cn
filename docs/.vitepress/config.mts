@@ -62,7 +62,7 @@ export default defineConfig({
         },
         {
           text: '工具资源',
-          link: '/tools/jdk'
+          link: '/tools/launcher'
         }
       ],
       '/tools/': [
