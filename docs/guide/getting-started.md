@@ -65,7 +65,7 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 当然，如果官方整合包不能满足你的需求，或是你想深度定制整合包，你需要自行制作整合包。关于如何自行制作整合包，请参阅 [自制整合包](#)。
 
 ::: warning
-我们强烈建议你使用我们提供的官方整合包进行游玩，除非你对游戏有深度的定制需求。一但你选择自制整合包，每次在服务器更新时，你将不得不手动升级模组文件以匹配服务器中的模组版本！
+我们强烈建议你使用我们提供的 [官方整合包](/modpack/official-modpack) 进行游玩，除非你对游戏有深度的定制需求。一但你选择自制整合包，每次在服务器更新时，你将不得不手动升级模组文件以匹配服务器中的模组版本！
 :::
 
 ## 第四步：开始游戏
@@ -127,6 +127,18 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 要游玩服务器，首先要将我们服务器的地址添加至 `多人游戏列表` 中。
 
+- 服务器地址：
+
+```
+cscmoe.cn
+```
+
+- 备用的服务器地址：
+
+```
+my.anankun.icu
+```
+
 #### 添加服务器
 
 点击 `多人游戏` 按钮。
@@ -155,11 +167,11 @@ Minecraft: Java Edition 需要 [Java 运行时环境](https://www.oracle.com/jav
 
 ![加入服务器步骤1](/images/join-server-step-1.jpg)
 
-等待加载（可能需要比较长的时间）……
+耐心等待加载（可能需要比较长的时间）……
 
 ![加入服务器步骤2](/images/join-server-step-2.jpg)
 
-成功进入服务器。
+成功进入服务器！
 
 ![加入服务器步骤3](/images/join-server-step-3.jpg)
 
