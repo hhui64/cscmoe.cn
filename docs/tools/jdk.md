@@ -18,7 +18,7 @@ JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”
 
 虽然我们并不要求使用某个特定厂商的 JDK，部分厂商的 JDK 可能会带有一定的性能优化（例如降低 CPU 或内存占用、提高帧率等），你可以选择不同厂商的 JDK。
 
-但是，在选择 JDK 时，需要注意其是否为 HotSpot 虚拟机，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你对此不太了解，我们建议选择我们推荐的 JDK。
+但是，在选择 JDK 时，需要注意其**是否为 HotSpot 虚拟机**^[HotSpot 的正式发布名称为“Java HotSpot Performance Engine”，是 Java 虚拟机的一个实现。]，如果为非 HotSpot 虚拟机（例如 IBM Semeru 为 OpenJ9 虚拟机）则会与我们服务器发布的整合包中的部分模组产生兼容性问题进而崩溃无法启动游戏！因此，如果你对此不太了解，我们建议选择我们推荐的 JDK。
 
 #### Minecraft 的游戏版本与 Java 版本的兼容性：
 
@@ -50,6 +50,18 @@ Oracle（甲骨文公司）出品的 JDK。
 | Mac ARM   | 17.0.10  | [macOS Arm 64 DMG Installer](https://download.oracle.com/java/17/archive/jdk-17.0.10_macos-aarch64_bin.dmg)         |
 | Linux     | 17.0.10  | [Linux x64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-x64_bin.tar.gz)        |
 | Linux ARM | 17.0.10  | [Linux Arm 64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-aarch64_bin.tar.gz) |
+
+### Java 8
+
+_暂无此版本的信息。_
+
+## Microsoft JDK
+
+Microsoft（微软公司）出品的 JDK。
+
+### Java 17
+
+详见 [官方页面](https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-17)。
 
 ### Java 8
 
