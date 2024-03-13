@@ -33,6 +33,9 @@
 |  ^^  |         暮色风味乐事         |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           豆腐乐事           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |        Alex 的乐事        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |More Delight（暂译：更多乐事）|[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |Crate Delight（暂译：板条箱乐事）|[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
+|  ^^  |        存储乐事        |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  | Delightful（暂译：究极乐事） |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |           水产业 2           |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
 |  ^^  |      懒人厨房/傻瓜烹饪       |[MC百科](#) \| [官方网站](#) \| [Modrinth](#) \| [CurseForge](#) |
