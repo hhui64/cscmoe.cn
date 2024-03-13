@@ -4,13 +4,45 @@
 
 官方整合包（CSCMOE MODPACK）是 CSCMOE 出品的，基于 [我的世界中文论坛整合包标准](#) 打包的 Minecraft 整合包。它用于快速地开始游玩 CSCMOE 服务器，省去了手动安装文件的繁琐步骤。只需下载，一键安装，即可开始游玩 CSCMOE 服务器！
 
-同时，官方整合包支持自动更新功能。每当服务器更新时，整合包也会自动更新。
+同时，官方整合包支持自动更新功能^[自动更新功能目前仅支持 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器。]。每当服务器更新时，整合包也会自动更新。
 
 官方整合包还添加了实用的辅助模组，如小地图、物品管理器、一键整理等，也内置了几个常用的光影包以及资源包。
 
 ::: tip
-官方整合包只是单纯地将模组和其他文件打包到一起，不包含 Minecraft 游戏本体，也没有对 Minecraft 本体进行魔改。它是完全遵守 [Minecraft EULA](https://www.minecraft.net/zh-hans/eula)^[即：MINECRAFT 最终用户许可协议 (“EULA”)。] 协议的，你可以放心使用。
+官方整合包只是单纯地将模组和其他文件打包到一起，不包含 Minecraft 游戏本体，也没有对 Minecraft 本体进行魔改。它是完全遵守 [Minecraft EULA](https://www.minecraft.net/zh-hans/eula)^[即：MINECRAFT 最终用户许可协议 (“EULA”)。] 协议的，同时官方整合包内附带的模组、资源包、光影包也遵守其对应的分发协议，你可以放心使用。
 :::
+
+## 兼容性
+
+官方整合包使用 [我的世界中文论坛整合包标准](#) 打包，只要支持导入该标准的整合包的 Minecraft 启动器都可以安装。
+
+### 自动更新功能的兼容性问题
+
+需要注意的是，如果你需要自动更新功能，你需要 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器。
+
+由于 [Plain Craft Launcher](https://afdian.net/a/LTCat) 启动器不支持该功能，所以在下载时需要注意分发版本。
+
+### 分发版本区别
+
+在分发时，不同的分发版本用来给不同 Minecraft 启动器的用户使用：
+
+- `cscmoe-modpack-v*.*.*.zip`：
+
+  带自动更新功能的官方整合包，仅支持 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器导入。
+
+- `cscmoe-modpack-v*.*.*-common.zip`：
+
+  通用的官方整合包，支持所有能够导入使用 [我的世界中文论坛整合包标准](#) 打包的 Minecraft 整合包。例如 [Plain Craft Launcher](https://afdian.net/a/LTCat) 启动器、[Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器等。
+
+  注意：该分发版本的官方整合包**不支持自动更新功能**，如果你需要这个功能，请下载带自动更新功能的官方整合包。
+
+### 操作系统兼容性
+
+理论上，官方整合包支持市面上所有主流的操作系统，只要能将游戏启动起来都可以游玩。
+
+所以主要的问题就变成了：你的 Minecraft 启动器是否支持这些操作系统？
+
+因此，你需要选择一个支持你正在使用的操作系统的 Minecraft 启动器。
 
 ## 下载及安装官方整合包
 
@@ -24,7 +56,15 @@
 
 通常来说，选择与服务器最新版本对应的官方整合包下载即可。
 
-以服务器版本 [v3.0.0](/server-info/changelog#v3-0-0) 对应的官方整合包为例，你可以在版本更新日志的下方找到 [官方整合包下载](/server-info/changelog.html#官方整合包下载) 部分，然后选择一个下载链接下载它。下载完成后，你将得到一个文件名为 `cscmoe-modpack-v3.0.0.zip` 的 zip 压缩包。
+以服务器版本 [v3.0.0](/server-info/changelog#v3-0-0) 对应的官方整合包为例，你可以在更新日志的文末找到 [官方整合包下载](/server-info/changelog.html#官方整合包下载) 部分，然后选择一个下载链接下载它。
+
+下载完成后，你将得到一个文件名为 `cscmoe-modpack-v3.0.0.zip` 的 zip 压缩包。
+
+::: warning
+你需要注意一下不同的分发版本区别，以免无法导入。详见 [分发版本区别](#分发版本区别)。
+
+最直观的表现就是无法导入到 Minecraft 启动器中，出现诸如“无法识别该整合包！”的提示。
+:::
 
 ### 安装
 
@@ -66,4 +106,10 @@
 
 ![资源包顺序列表](/images/res-list.jpg)
 
+### 视频设置
+
+_正在编写……_
+
 ### 光影设置
+
+_正在编写……_
