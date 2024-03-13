@@ -38,6 +38,11 @@ outline: 2
 
 ### 其他更新内容
 
+- 更新了 [锦致装饰](https://www.mcmod.cn/class/3555.html) 的部分汉化文本。
+- 更新了部分模组至最新版本。
+
+### 官方整合包更新内容
+
 - 添加了模组 [Leawind 的第三人称](https://www.mcmod.cn/class/12699.html)，这个模组提供一个更好的第三人称视角。
 
   - 按 `F5` 键切换至第三人称视角。
@@ -47,8 +52,6 @@ outline: 2
   （以上按键均可在 `设置` -> `按键绑定` 中调整键位。）
 
 - 移除了模组 [越肩视角重制](https://www.mcmod.cn/class/3305.html)，现在由 [Leawind 的第三人称](https://www.mcmod.cn/class/12699.html) 取而代之。
-- 更新了 [锦致装饰](https://www.mcmod.cn/class/3555.html) 的部分汉化文本。
-- 更新了部分模组至最新版本。
 
 ### 官方整合包下载
 

@@ -55,7 +55,7 @@ export default defineConfig({
           text: '游玩指南',
           items: [
             { text: '简介', link: '/guide/introduction' },
-            { text: '规章制度', link: '/guide/rules' },
+            { text: '居民准则', link: '/guide/rules' },
             { text: '开始游玩', link: '/guide/getting-started' },
             { text: '常见问题与解决', link: '/guide/troubles' }
           ]

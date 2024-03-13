@@ -18,21 +18,21 @@
 
 ### 自动更新功能的兼容性问题
 
-需要注意的是，如果你需要自动更新功能，你需要 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器。
+需要注意的是，如果你需要自动更新功能，你必须使用 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器。
 
-由于 [Plain Craft Launcher](https://afdian.net/a/LTCat) 启动器不支持该功能，所以在下载时需要注意分发版本。
+由于其他的 Minecraft 启动器不支持该功能，所以在下载时需要注意分发版本。
 
 ### 分发版本区别
 
 在分发时，不同的分发版本用来给不同 Minecraft 启动器的用户使用：
 
-- `cscmoe-modpack-v*.*.*.zip`：
+- `cscmoe-modpack-v[版本号].zip`：
 
-  带自动更新功能的官方整合包，仅支持 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器导入。
+  带自动更新功能的官方整合包分发版本，仅支持 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器导入。
 
-- `cscmoe-modpack-v*.*.*-common.zip`：
+- `cscmoe-modpack-v[版本号]-common.zip`：
 
-  通用的官方整合包，支持所有能够导入使用 [我的世界中文论坛整合包标准](#) 打包的 Minecraft 整合包。例如 [Plain Craft Launcher](https://afdian.net/a/LTCat) 启动器、[Hello Minecraft! Launcher](https://hmcl.huangyuhui.net) 启动器等。
+  通用的官方整合包分发版本，支持所有能够导入使用 [我的世界中文论坛整合包标准](#) 打包的整合包的 Minecraft 启动器。例如 [Plain Craft Launcher](https://afdian.net/a/LTCat) 启动器等。
 
   注意：该分发版本的官方整合包**不支持自动更新功能**，如果你需要这个功能，请下载带自动更新功能的官方整合包。
 
@@ -40,7 +40,7 @@
 
 理论上，官方整合包支持市面上所有主流的操作系统，只要能将游戏启动起来都可以游玩。
 
-所以主要的问题就变成了：你的 Minecraft 启动器是否支持这些操作系统？
+所以问题就变成了：你的 Minecraft 启动器是否支持这些操作系统？（很滑稽吧）
 
 因此，你需要选择一个支持你正在使用的操作系统的 Minecraft 启动器。
 
