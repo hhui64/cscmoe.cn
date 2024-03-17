@@ -95,7 +95,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/hhui64/docs.cscmoe.cn' }
+      { icon: 'github', link: 'https://github.com/hhui64/docs.cscmoe.cn' },
+      { icon: 'discord', link: 'https://discord.gg/Betqv7Vy9y' }
     ],
 
     docFooter: {
