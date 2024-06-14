@@ -101,7 +101,7 @@ outline: 2
 - 添加了模组 [Alex 的乐事](https://www.mcmod.cn/class/5565.html)，该模组提供它与 [农夫乐事](https://www.mcmod.cn/class/2820.html) 的联动内容。
 - 添加了模组 [Amendments](https://www.mcmod.cn/class/13860.html)，由于 [锦致装饰](https://www.mcmod.cn/class/3555.html) 模组更新，其部分物品被移至此模组中。该模组改动了一些原版装饰方块的效果，使得其体验更好。
 - 更新了模组 [豆腐工艺重制版](https://www.mcmod.cn/class/1633.html)，新版本添加了 `豆腐尼雕像` 以及部分地形改动等。
-- 官方整合包现在内置了三个光影包：`Complementary`、`BSL`、`Bliss`。你可以根据自己喜好选择他们。
+- 官方整合包现在内置了三个光影包：`Complementary`、`BSL`、`Bliss`。你可以根据自己的喜好选择它们。
 - 移除了模组 [是，史蒂夫模型](https://www.mcmod.cn/class/8616.html)，原因是用处不大且导致游戏帧率降低。
 
 ### "天境补全计划"
