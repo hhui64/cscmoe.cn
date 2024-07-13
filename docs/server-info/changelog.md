@@ -22,8 +22,8 @@ _神の锐评：“数学界有传奇天才姜萍，CSCMOE 有手搓 i9 CPU 的�
 
 |              文件名              | 下载链接  |
 | :------------------------------: | :-------: |
-|    cscmoe-modpack-v4.0.0.zip     | 上传中... |
-| cscmoe-modpack-v4.0.0-common.zip | 上传中... |
+|    cscmoe-modpack-v4.0.2.zip     | 上传中... |
+| cscmoe-modpack-v4.0.2-common.zip | 上传中... |
 
 ### 主要更新内容
 
@@ -71,7 +71,23 @@ _神の锐评：“数学界有传奇天才姜萍，CSCMOE 有手搓 i9 CPU 的�
 
 ### 官方整合包更新内容
 
+::: details V4.0.2
+- 新增：物品管理器从 REI 切换至 [JEI](https://www.mcmod.cn/class/459.html) + [EMI](https://www.mcmod.cn/class/6630.html)。
+- 新增：添加了模组 [FTB团队](https://www.mcmod.cn/class/3179.html)、[FTB任务](https://www.mcmod.cn/class/1423.html)，以准备后续版本上线任务系统的工作。
+- 优化：进度面板现在得到了改善，更大了。（来自模组：[更好的进度](https://www.mcmod.cn/class/1530.html)）
+- 优化：现在进入生物群系时会在屏幕上显示该生物群系的名称。（来自模组：[Traveler's Titles](https://www.mcmod.cn/class/4471.html)）
+- 优化：料理现在会显示饱食度以及将恢复的生命值。（来自模组：[苹果皮](https://www.mcmod.cn/class/744.html)）
+- 移除了内置光影包 `Bliss`，原因是不兼容飞轮的优化机制，导致在开启光影包时机械动力的物品会大幅影响帧率。
+:::
+
+::: details V4.0.1
+- 添加了模组 CraftTweaker、CreateTweaks、TwilightTweaks 以准备后续版本的魔改工作。
+:::
+
+::: details V4.0.0
 - 移除了模组 Zoom，现在由模组 [饰品望远镜](https://www.mcmod.cn/class/12775.html) 取而代之。
+:::
+
 
 ### 任务系统
 
