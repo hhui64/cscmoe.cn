@@ -41,15 +41,25 @@ JDK 是“Java Development Kit”的缩写，即“Java 开发人员工具包”
 
 Oracle（甲骨文公司）出品的 JDK。
 
+### Java 21
+
+| 操作系统  | JDK 版本 | 下载链接                                                                                                            |
+| --------- | :------: | ------------------------------------------------------------------------------------------------------------------- |
+| Windows   | 21.0.4  | [Windows x64 MSI Installer](https://download.oracle.com/java/21/archive/jdk-21.0.4_windows-x64_bin.msi)            |
+| Mac       | 21.0.4  | [macOS x64 DMG Installer](https://download.oracle.com/java/21/archive/jdk-21.0.4_macos-x64_bin.dmg)                |
+| Mac ARM   | 21.0.4  | [macOS Arm 64 DMG Installer](https://download.oracle.com/java/21/archive/jdk-21.0.4_macos-aarch64_bin.dmg)         |
+| Linux     | 21.0.4  | [Linux x64 Compressed Archive](https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-x64_bin.tar.gz)        |
+| Linux ARM | 21.0.4  | [Linux Arm 64 Compressed Archive](https://download.oracle.com/java/21/archive/jdk-21.0.4_linux-aarch64_bin.tar.gz) |
+
 ### Java 17
 
 | 操作系统  | JDK 版本 | 下载链接                                                                                                            |
 | --------- | :------: | ------------------------------------------------------------------------------------------------------------------- |
-| Windows   | 17.0.10  | [Windows x64 MSI Installer](https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.msi)            |
-| Mac       | 17.0.10  | [macOS x64 DMG Installer](https://download.oracle.com/java/17/archive/jdk-17.0.10_macos-x64_bin.dmg)                |
-| Mac ARM   | 17.0.10  | [macOS Arm 64 DMG Installer](https://download.oracle.com/java/17/archive/jdk-17.0.10_macos-aarch64_bin.dmg)         |
-| Linux     | 17.0.10  | [Linux x64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-x64_bin.tar.gz)        |
-| Linux ARM | 17.0.10  | [Linux Arm 64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-aarch64_bin.tar.gz) |
+| Windows   | 17.0.12  | [Windows x64 MSI Installer](https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi)            |
+| Mac       | 17.0.12  | [macOS x64 DMG Installer](https://download.oracle.com/java/17/archive/jdk-17.0.12_macos-x64_bin.dmg)                |
+| Mac ARM   | 17.0.12  | [macOS Arm 64 DMG Installer](https://download.oracle.com/java/17/archive/jdk-17.0.12_macos-aarch64_bin.dmg)         |
+| Linux     | 17.0.12  | [Linux x64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-x64_bin.tar.gz)        |
+| Linux ARM | 17.0.12  | [Linux Arm 64 Compressed Archive](https://download.oracle.com/java/17/archive/jdk-17.0.12_linux-aarch64_bin.tar.gz) |
 
 ### Java 8
 
