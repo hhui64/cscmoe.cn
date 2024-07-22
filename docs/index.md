@@ -35,6 +35,12 @@ features:
     details: 这里没有暴力杀戮，也没有小偷小摸，致力打造一个 Minecraft 版的“乌托邦”。
 ---
 
+<!-- <script setup>
+import Banner from './.vitepress/theme/components/Banner.vue'
+</script> -->
+
+<!-- <Banner /> -->
+
 ::: tip 店主寄语
 正在寻找一个和朋友联机的服务器？不妨试试我们。带上你的朋友们，一起种地，冒险，搭房子！田园生活，休闲养老……你所热爱的 Minecraft，就在这里！
 
