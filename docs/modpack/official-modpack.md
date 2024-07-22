@@ -68,7 +68,7 @@
 
 ### 安装
 
-打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v3.0.0.zip` 拖入启动器中。
+打开 Hello Minecraft! Launcher 启动器，使用鼠标将 `cscmoe-modpack-v3.0.0.zip` （无须解压）拖入启动器中。
 
 ![](/images/modpack-install-step-1.jpg)
 
